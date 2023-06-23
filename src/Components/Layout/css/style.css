@@ -1,0 +1,83 @@
+
+.window{
+    background: #00000099;
+    box-shadow: 0 0 15px 5px #00000088;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    transform: translateY(15%);
+    height: 600px;
+    width: 90%;
+    z-index: 2;
+}
+.windowHeader{
+    align-items: center;
+    box-shadow: 0 0 1px #ffffff60;
+    display: grid;
+    grid:'. .'/10% 90%;
+    text-align: center;
+    height: 80px;
+}
+.windowHeader__Link{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.windowHeaderLink{
+    color: #fff;
+}
+.windowHeader ul{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    margin: 0 5px;
+    width: 90%;
+}
+.windowHeader ul li{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.windowForm{
+    background: #00000099;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 400px;
+}
+.windowForm input{
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+.ball{
+    background: #00000088;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+.windowIcons{
+    display: flex;
+    gap: 1em;
+}
+.icon{
+    font-size: 25px;
+}
+.ball:nth-child(1){
+    background: #f96057;
+}
+.ball:nth-child(2){
+    background: #5fcf65;
+}
+.ball:nth-child(3){
+    background: #f8ce52;
+}
